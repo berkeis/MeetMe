@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 /**
  * Created by bi on 11-May-16.
@@ -32,6 +33,12 @@ public class EventHandler extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
+
+
+
+
+
+                Toast.makeText(getApplicationContext(),"Event Created!", Toast.LENGTH_LONG).show();
 
                 startActivity(new Intent(EventHandler.this, UserActivity.class));
 

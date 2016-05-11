@@ -21,6 +21,9 @@
             android:name=".RegisterActivity">
         </activity>
         <activity
+            android:name=".InviteActivity">
+        </activity>
+        <activity
             android:name=".EventHandler">
         </activity>
         <activity
